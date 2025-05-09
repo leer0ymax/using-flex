@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    color: #333;
+
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between ;
+    gap: 40px;
+    padding: 20px;
+}
+  
+  .menu a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    justify-content: flex-start;
+
+  }
+  
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    border: 1px solid #bdbdbd;
+    background: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+  }
+  
+  .text-editor {
+    flex: 1;
+    min-width: 300px;
+    padding: 60px;
+  }
+  
+  .text-editor h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .text-editor p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  .partners {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .partners img {
+    height: 25px;
+    opacity: 0.6;
+  }
+  
+  .image {
+    flex: 1;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+
+  }
+  
+  .image img {
+    height: 400px;
+    max-width: 100%;
+
+
+  }
+  
